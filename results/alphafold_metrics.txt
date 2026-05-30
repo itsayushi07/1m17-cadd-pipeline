@@ -1,0 +1,5 @@
+Protein: 1M17
+
+RMSD: 0.484 Å
+Atoms aligned: 1831
+Alignment quality: Excellent
