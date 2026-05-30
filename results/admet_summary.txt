@@ -1,0 +1,8 @@
+Erlotinib:
+Most balanced ADMET profile
+
+Gefitinib:
+Moderate docking and ADMET profile
+
+Lapatinib:
+Strongest docking affinity but higher toxicity and interaction risk
