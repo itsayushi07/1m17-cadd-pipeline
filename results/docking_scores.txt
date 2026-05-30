@@ -1,0 +1,5 @@
+Compound       Docking Score
+
+Lapatinib      -11.6 kcal/mol
+Gefitinib      -8.6 kcal/mol
+Erlotinib      -8.3 kcal/mol
