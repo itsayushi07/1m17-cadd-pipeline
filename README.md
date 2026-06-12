@@ -1,20 +1,38 @@
 <div align="center">
 
-# 🧬 1M17-CADD-Pipeline
+# 🧬 1M17 • AI-Assisted Drug Discovery Pipeline
 
-### AI-Assisted Structure-Based Drug Discovery of EGFR Kinase Domain (1M17)
+### Structure-Based Computational Analysis of the EGFR Kinase Domain
 
-<img src="./figures/week1/full_protein.png" width="900">
+<img src="./figures/week1/full_protein.png" width="100%">
 
 <br>
 
-![Computational Biology](https://img.shields.io/badge/Computational_Biology-Research-blue?style=for-the-badge)
-![Structural Bioinformatics](https://img.shields.io/badge/Structural_Bioinformatics-CADD-success?style=for-the-badge)
-![Molecular Docking](https://img.shields.io/badge/Molecular_Docking-PyRx-orange?style=for-the-badge)
-![AlphaFold3](https://img.shields.io/badge/AlphaFold3-AI-purple?style=for-the-badge)
-![EGFR](https://img.shields.io/badge/Target-EGFR_Kinase-red?style=for-the-badge)
+![Computational Biology](https://img.shields.io/badge/Computational_Biology-Research-blueviolet?style=for-the-badge)
+![Structural Bioinformatics](https://img.shields.io/badge/Structural_Bioinformatics-EGFR-success?style=for-the-badge)
+![Drug Discovery](https://img.shields.io/badge/Drug_Discovery-CADD-orange?style=for-the-badge)
+![AlphaFold3](https://img.shields.io/badge/AlphaFold3-AI_Modeling-purple?style=for-the-badge)
+![PyRx](https://img.shields.io/badge/PyRx-Molecular_Docking-red?style=for-the-badge)
 
-### Computational Biology × Structural Bioinformatics × AI
+<br>
+
+### Computational Biology × Structural Bioinformatics × Artificial Intelligence
+
+### 🎯 Target: EGFR Kinase Domain
+
+### 📍 PDB ID: 1M17
+
+</div>
+
+---
+
+# 🌟 Project Snapshot
+
+<div align="center">
+
+| 🧬 Target | ⚡ Best Binder | 📊 RMSD | 🤖 Validation |
+|-----------|-----------|-----------|-----------|
+| EGFR Kinase Domain | Lapatinib | 0.484 Å | AlphaFold3 |
 
 </div>
 
@@ -38,103 +56,45 @@ to evaluate clinically relevant EGFR inhibitors through a modern structure-based
 
 ---
 
-# 🦠 Target Protein
+# 🦠 Protein Target
 
 <div align="center">
 
-<img src="./figures/week1/full_protein.png" width="850">
+<img src="./figures/week1/full_protein.png" width="900">
+
+### Experimental Structure of EGFR Kinase Domain (PDB: 1M17)
 
 </div>
 
-## Protein Information
-
-| Parameter | Value |
-|------------|------------|
-| Protein Name | Epidermal Growth Factor Receptor (EGFR) Kinase Domain |
+| Property | Value |
+|-----------|-----------|
+| Protein | Epidermal Growth Factor Receptor (EGFR) |
 | PDB ID | 1M17 |
-| Experimental Method | X-Ray Crystallography |
 | Resolution | 2.60 Å |
-| Co-crystallized Ligand | Erlotinib |
-| Target Relevance | Cancer-Associated Receptor Tyrosine Kinase |
+| Method | X-Ray Crystallography |
+| Co-Crystallized Ligand | Erlotinib |
+| Disease Relevance | Cancer Progression |
+| Target Class | Receptor Tyrosine Kinase |
 
 ---
 
-# 🎯 Research Objective
-
-To computationally evaluate EGFR inhibitors against the EGFR kinase domain through:
-
-✅ Protein target evaluation
-
-✅ Binding site prediction
-
-✅ Protein preparation
-
-✅ Drug-likeness screening
-
-✅ Molecular docking
-
-✅ ADMET profiling
-
-✅ AI-assisted structural validation
-
----
-
-# ⚙️ Computational Workflow
-
-```mermaid
-flowchart LR
-
-A[1M17 Structure]
---> B[Protein Evaluation]
-
-B --> C[DoGSiteScorer]
-
-C --> D[Binding Site Prediction]
-
-D --> E[UCSF Chimera]
-
-E --> F[Protein Preparation]
-
-F --> G[SwissADME]
-
-G --> H[Drug-Likeness Screening]
-
-H --> I[PyRx Docking]
-
-I --> J[Discovery Studio]
-
-J --> K[Interaction Analysis]
-
-K --> L[ADMETlab 3.0]
-
-L --> M[AlphaFold3]
-
-M --> N[PyMOL Alignment]
-
-N --> O[Structural Validation]
-```
-
----
-
-# 🎯 Binding Site Identification
-
-Binding pocket prediction was performed using **DoGSiteScorer**, identifying the biologically relevant active site associated with Erlotinib binding.
+# 🎯 Binding Pocket Analysis
 
 <div align="center">
 
-<img src="./figures/week1/binding_pocket.png" width="850">
+<img src="./figures/week1/binding_pocket.png" width="900">
 
 </div>
 
----
-
-## Active Site Residues
+<br>
 
 <div align="center">
 
-<img src="./figures/week1/binding_residues.png" width="850">
+<img src="./figures/week1/binding_residues.png" width="900">
 
 </div>
+
+### Key Active Site Residues
 
 ```text
 LEU694
@@ -156,15 +116,11 @@ THR830
 ASP831
 ```
 
-### Key Observation
-
-The predicted binding pocket overlapped directly with the co-crystallized Erlotinib binding region, confirming biological relevance and active-site accuracy.
+> The predicted pocket overlapped directly with the co-crystallized Erlotinib binding site, confirming biological relevance.
 
 ---
 
 # 🧬 Protein Preparation
-
-Protein preparation was performed using UCSF Chimera to generate a docking-ready protein structure.
 
 <div align="center">
 
@@ -173,17 +129,17 @@ Protein preparation was performed using UCSF Chimera to generate a docking-ready
 
 <td align="center">
 
-### Before Preparation
+<img src="./figures/week1/before_preparation.png" width="450">
 
-<img src="./figures/week1/before_preparation.png" width="430">
+### Before Preparation
 
 </td>
 
 <td align="center">
 
-### After Preparation
+<img src="./figures/week1/after_preparation.png" width="450">
 
-<img src="./figures/week1/after_preparation.png" width="430">
+### After Preparation
 
 </td>
 
@@ -194,11 +150,13 @@ Protein preparation was performed using UCSF Chimera to generate a docking-ready
 
 ### Preparation Workflow
 
-- Chain A Selection
-- Water Molecule Removal
-- Heteroatom Removal
-- Hydrogen Addition
-- Charge Assignment via Dock Prep
+```diff
++ Chain A Selection
++ Water Removal
++ Heteroatom Removal
++ Hydrogen Addition
++ Dock Prep Optimization
+```
 
 Output:
 
@@ -210,23 +168,21 @@ Output:
 
 # 💊 Drug-Likeness Screening
 
-Drug-likeness analysis was performed using SwissADME based on Lipinski's Rule of Five.
-
 <div align="center">
 
-<img src="./figures/week2/swissadme.png" width="900">
+<img src="./figures/week2/swissadme.png" width="950">
 
 </div>
 
-## Evaluated Compounds
+### Evaluated Compounds
 
-| Compound | Drug-Like |
+| Compound | Drug-Likeness |
 |-----------|-----------|
-| Erlotinib | ✅ Yes |
-| Gefitinib | ✅ Yes |
-| Lapatinib | ⚠ Partial |
+| Erlotinib | ✅ Pass |
+| Gefitinib | ✅ Pass |
+| Lapatinib | ⚠ High Molecular Weight |
 
-### Key Finding
+### Key Observation
 
 Erlotinib and Gefitinib demonstrated favorable oral drug-like characteristics, while Lapatinib exceeded the recommended molecular weight threshold.
 
@@ -234,33 +190,33 @@ Erlotinib and Gefitinib demonstrated favorable oral drug-like characteristics, w
 
 # ⚡ Molecular Docking
 
-Molecular docking was performed using PyRx (AutoDock Vina) to evaluate ligand affinity toward the EGFR active site.
+### AutoDock Vina via PyRx
 
-## Docking Scores
+| Rank | Compound | Binding Affinity (kcal/mol) |
+|--------|--------|--------|
+| 🥇 | Lapatinib | **-11.6** |
+| 🥈 | Gefitinib | -8.6 |
+| 🥉 | Erlotinib | -8.3 |
 
-| Compound | Binding Affinity (kcal/mol) |
-|------------|------------|
-| **Lapatinib** | **-11.6** |
-| Gefitinib | -8.6 |
-| Erlotinib | -8.3 |
+<div align="center">
 
-### Key Finding
+## 🏆 Best Docking Candidate
 
-Lapatinib demonstrated the strongest predicted interaction with the EGFR kinase domain based on docking score and molecular interaction stability.
+# Lapatinib
+
+**Binding Affinity: −11.6 kcal/mol**
+
+</div>
 
 ---
 
 # 🔗 Protein–Ligand Interaction Analysis
 
-Interaction analysis was performed using BIOVIA Discovery Studio.
-
----
-
 ## Erlotinib
 
 <div align="center">
 
-<img src="./figures/week2/erlotinib_2d_interaction..jpg" width="750">
+<img src="./figures/week2/erlotinib_2d_interaction..jpg" width="850">
 
 </div>
 
@@ -270,7 +226,7 @@ Interaction analysis was performed using BIOVIA Discovery Studio.
 
 <div align="center">
 
-<img src="./figures/week2/gefitinib_2d_interaction.jpg" width="750">
+<img src="./figures/week2/gefitinib_2d_interaction.jpg" width="850">
 
 </div>
 
@@ -280,35 +236,37 @@ Interaction analysis was performed using BIOVIA Discovery Studio.
 
 <div align="center">
 
-<img src="./figures/week2/lapatinib_2d_interaction.jpg" width="750">
+<img src="./figures/week2/lapatinib_2d_interaction.jpg" width="850">
 
 </div>
 
----
+### Interaction Highlights
 
-### Comparative Analysis
-
-Lapatinib demonstrated the most extensive hydrogen bonding and hydrophobic interaction network within the active site, supporting its superior docking affinity.
+```diff
++ Hydrogen Bond Formation
++ Hydrophobic Contacts
++ Active Site Stabilization
++ Strong Molecular Complementarity
++ Favorable Binding Orientation
+```
 
 ---
 
 # 📊 ADMET Profiling
 
-ADMET prediction was conducted using ADMETlab 3.0.
-
 <div align="center">
 
-<img src="./figures/week2/admet_result.png" width="900">
+<img src="./figures/week2/admet_result.png" width="950">
 
 </div>
 
-### Major Findings
+### Comparative Assessment
 
-⭐ Erlotinib demonstrated the most balanced overall ADMET profile.
-
-⚠ Gefitinib showed elevated hERG inhibition risk.
-
-⚠ Lapatinib displayed stronger plasma protein binding and increased metabolic interaction risk.
+| Compound | Assessment |
+|-----------|-----------|
+| Erlotinib | ⭐ Most Balanced Profile |
+| Gefitinib | ⚠ Elevated hERG Risk |
+| Lapatinib | ⚠ Increased PPB & Metabolic Risk |
 
 ### Evaluated Categories
 
@@ -322,17 +280,13 @@ Toxicity
 
 ---
 
-# 🤖 AlphaFold3 Structure Validation
+# 🤖 AlphaFold3 Validation
 
-The EGFR kinase domain sequence was submitted to AlphaFold3 for AI-based structure prediction.
-
----
-
-## AlphaFold3 Predicted Structure
+## Predicted Structure
 
 <div align="center">
 
-<img src="./figures/week3/alphafold_predicted.png" width="850">
+<img src="./figures/week3/alphafold_predicted.png" width="900">
 
 </div>
 
@@ -342,36 +296,37 @@ The EGFR kinase domain sequence was submitted to AlphaFold3 for AI-based structu
 
 <div align="center">
 
-<img src="./figures/week3/aligned_overlay.png" width="900">
+<img src="./figures/week3/aligned_overlay.png" width="950">
 
 </div>
 
 ---
 
-## Structural Metrics
+### Structural Metrics
 
 | Metric | Result |
-|------------|------------|
+|-----------|-----------|
 | RMSD | 0.484 Å |
 | Atoms Aligned | 1831 |
 | Structural Agreement | Excellent |
+| Confidence | High |
 
 ### Interpretation
 
-The AlphaFold3-predicted structure showed strong agreement with the experimentally resolved EGFR kinase domain, with only minor deviations observed in flexible regions.
+The AlphaFold3-predicted model demonstrated excellent agreement with the experimentally resolved EGFR structure, supporting the reliability of AI-assisted protein modelling.
 
 ---
 
-# 🏆 Key Findings
+# 🏆 Major Findings
 
 ```diff
-+ EGFR kinase domain selected as a clinically relevant cancer target
-+ Binding site prediction matched the experimentally validated active site
-+ Lapatinib demonstrated the strongest docking affinity (-11.6 kcal/mol)
-+ Erlotinib showed the most balanced ADMET profile
-+ AlphaFold3 achieved excellent structural agreement
++ EGFR selected as a clinically relevant oncology target
++ Binding site prediction matched experimental active site
++ Lapatinib achieved strongest docking affinity
++ Erlotinib demonstrated optimal ADMET balance
++ AlphaFold3 reproduced experimental architecture
 + RMSD = 0.484 Å
-+ AI-based protein prediction closely reproduced experimental structure
++ Strong support for AI-assisted drug discovery workflows
 ```
 
 ---
@@ -391,22 +346,8 @@ The AlphaFold3-predicted structure showed strong agreement with the experimental
 │
 ├── figures/
 │   ├── week1/
-│   │   ├── full_protein.png
-│   │   ├── binding_pocket.png
-│   │   ├── binding_residues.png
-│   │   ├── before_preparation.png
-│   │   └── after_preparation.png
-│   │
 │   ├── week2/
-│   │   ├── swissadme.png
-│   │   ├── admet_result.png
-│   │   ├── erlotinib_2d_interaction..jpg
-│   │   ├── gefitinib_2d_interaction.jpg
-│   │   └── lapatinib_2d_interaction.jpg
-│   │
 │   └── week3/
-│       ├── alphafold_predicted.png
-│       └── aligned_overlay.png
 │
 ├── results/
 └── docs/
@@ -414,7 +355,7 @@ The AlphaFold3-predicted structure showed strong agreement with the experimental
 
 ---
 
-# 🛠 Tools & Technologies
+# 🛠 Technology Stack
 
 | Category | Tool |
 |-----------|-----------|
@@ -429,11 +370,19 @@ The AlphaFold3-predicted structure showed strong agreement with the experimental
 
 ---
 
-# 🌟 Scientific Relevance
+# 🌟 Scientific Significance
 
-EGFR is a clinically important receptor tyrosine kinase implicated in cancer progression and targeted therapy development.
+EGFR is one of the most clinically important receptor tyrosine kinases involved in cancer progression and targeted therapy development.
 
-This project demonstrates the integration of structural bioinformatics, molecular docking, pharmacokinetic profiling, and AI-assisted protein modelling within a unified computational drug discovery workflow.
+This project demonstrates the integration of:
+
+- Computational Biology
+- Structural Bioinformatics
+- Molecular Docking
+- Pharmacokinetic Profiling
+- Artificial Intelligence
+
+within a unified structure-based drug discovery workflow.
 
 ---
 
@@ -443,7 +392,7 @@ This project demonstrates the integration of structural bioinformatics, molecula
 
 **Final Year B.Sc. Chemistry**
 
-Computational Biology • Bioinformatics • CADD
+Computational Biology • Bioinformatics • Structural Bioinformatics • CADD
 
 ### Research Interests
 
@@ -451,7 +400,7 @@ Computational Biology • Bioinformatics • CADD
 
 💊 Drug Discovery
 
-🤖 Artificial Intelligence in Life Sciences
+🤖 AI in Life Sciences
 
 🔬 Structural Bioinformatics
 
@@ -459,8 +408,8 @@ Computational Biology • Bioinformatics • CADD
 
 <div align="center">
 
-### ⭐ Star this repository if you found it useful.
+# ⭐ Star this repository if you found it useful
 
-### Computational Biology × Structural Bioinformatics × AI
+### Computational Biology × Structural Bioinformatics × Drug Discovery × AI
 
 </div>
